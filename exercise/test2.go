@@ -9,7 +9,6 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
-
 	"golang.org/x/sync/errgroup"
 )
 
