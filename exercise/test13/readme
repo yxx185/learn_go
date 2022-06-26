@@ -1,0 +1,32 @@
+.
+├── api
+│   └── product
+│       └── app
+│           ├── errcode
+│           └── v1
+│               └── v1.proto
+├── cmd
+│   ├── cron
+│   │   ├── main.go
+│   │   └── wire.go
+│   ├── migrate
+│   └── server
+├── config
+├── go.mod
+├── internal
+│   ├── cron
+│   │   ├── repo
+│   │   ├── service
+│   │   ├── usecase
+│   │   └── wire_set.go
+│   ├── domain
+│   ├── pkg
+│   │   ├── copier
+│   │   ├── mock
+│   │   └── test
+│   └── server
+│       ├── repo
+│       ├── service
+│       ├── usecase
+│       └── wire_set.go
+└── third_party
